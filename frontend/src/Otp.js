@@ -85,7 +85,7 @@ const Otp = () => {
         <h2>Please verify Mobile number</h2><br/>
         <p>An OTP is sent to 
             <span>{' +'+countryCode+phoneNumber}</span><br/>
-            <br /><Link to={'/'}>Change Phone Number</Link>
+            <br /><Link to={'/'} style={{color:'orange'}}>Change Phone Number</Link>
         </p><br />
 
         <form onSubmit={handleSubmit}>
