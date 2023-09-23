@@ -49,7 +49,7 @@ const SignIn = () => {
         <div className="container">
             {error && <p style={{color:'red'}}>{error}</p>}
             <img src="./img/logo.png" alt="brand-logo"/>
-            <h2 style={{color:'black'}}>Welcome Back</h2><br/>
+            <h2>Welcome Back</h2><br/>
             <p>Please sign in to your account</p><br/><br/>
             <div><p style={{fontSize:'small'}}>Enter Contact Number</p>
             <PhoneInput country={'in'} value={value} onChange={setValue}/>
