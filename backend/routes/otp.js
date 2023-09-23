@@ -20,7 +20,6 @@ router.post('/send-otp', async(req,res)=>{
             to: `+${countryCode}${phoneNumber}`,
             channel: "sms"
         });
-        console.log(otpResponse);
         res.status(200).json({message: 'OTP send successfully!'});
     }
     catch(err){
@@ -42,7 +41,6 @@ router.post('/verify-otp', async(req,res)=>{
             to: `+${countryCode}${phoneNumber}`,
             code: otp
         });
-        console.log(verifiedResponse);
         if(verifiedResponse.status==='approved'){
             return res.status(200).json({message: 'OTP verified successfully!'});
         }
