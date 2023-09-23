@@ -33,7 +33,7 @@ const Otp = () => {
                 countryCode,
                 phoneNumber 
             };
-            const response = await axios.post('http://localhost:8000/api/send-otp',data);
+            const response = await axios.post('https://otp-verification-system-api.onrender.com/api/send-otp',data);
             alert(response.data.message);
         }
         catch(error){
@@ -63,7 +63,7 @@ const Otp = () => {
                 phoneNumber,
                 otp: fourDigitOtp
             };
-            const response = await axios.post('http://localhost:8000/api/verify-otp',data);
+            const response = await axios.post('https://otp-verification-system-api.onrender.com/api/verify-otp',data);
             alert(response.data.message);
             
             //Navigate to Success Page

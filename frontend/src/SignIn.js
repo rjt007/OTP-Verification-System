@@ -25,7 +25,7 @@ const SignIn = () => {
                 countryCode,
                 phoneNumber 
             };
-            const response = await axios.post('http://localhost:8000/api/send-otp',data);
+            const response = await axios.post('https://otp-verification-system-api.onrender.com/api/send-otp',data);
             alert(response.data.message);
             
             //Navigate to OTP verification page
