@@ -55,7 +55,7 @@ const SignIn = () => {
             <PhoneInput country={'in'} value={value} onChange={setValue}/>
             </div><br/>
             <br/><p>We will send you a one time SMS message.<br/>Charges may apply.</p>
-            <button id="btn" onClick={handleClick}>Sign In with OTP.</button>
+            <button id="btn" onClick={handleClick}>Sign In with OTP</button>
         </div>  
     );
 }
