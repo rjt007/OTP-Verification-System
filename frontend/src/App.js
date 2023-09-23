@@ -1,10 +1,15 @@
-import './App.css';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import SignIn from './SignIn';
 
-function App() {
+const App = ()=>{
   return (
-    <div className="App">
-      Hello
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path='/' element={<SignIn/>}/>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
