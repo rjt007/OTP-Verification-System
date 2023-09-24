@@ -1,6 +1,6 @@
 # OTP Verification System
 This is the application where users get verified using OTP send to their phone number. You can visit the site by clicking [here](https://otp-verification-system-fdlo.onrender.com/). The backend API can be accessed using this [link](https://otp-verification-system-api.onrender.com/).  
-You can watch this [video]() to understand how the whole application works.
+You can watch this [video](https://www.loom.com/share/ec7e14479ee646afbb992a742a53ef09?sid=b14ae5aa-8459-4524-bd36-93c8276dcba5) to understand how the whole application works.
 ## Working of Application
 Let's understand how to use the application.  
 **Step 1 :**
